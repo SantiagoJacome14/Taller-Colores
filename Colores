@@ -1,0 +1,29 @@
+class Colegio:
+  def _init_(self, area, profesores, ventanas, cafeterias, altura):
+    #Atributos
+    self.area=int(500)
+    self.profesores=int(20)
+    self.ventanas=int(20)
+    self.cafeterias=int(5)
+    self.altura=int(50)
+
+#Metodos
+  def Ampliar(self):
+    print("El área del colegio se ha ampliado")
+  def Contratar(self):
+    print("Se han contratado profesores")
+  def Cerrar(self):
+    print("Las ventanas se han cerrado")
+  def Abrir(self):
+    print("Las cafeterias del colegio han abierto")
+  def Aumentar(self):
+    print("La altura del colegio ha aumentado")
+b1=Colegio(400, 57, 6, 14, 30)
+b2=Colegio(350, 61, 17, 12, 25)
+b3=Colegio(300, 48, 15, 8, 28)
+b1.Ampliar()
+b2.Contratar()
+b3.Cerrar()
+b1.Abrir()
+b1.Aumentar()
+ 
